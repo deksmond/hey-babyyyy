@@ -22,12 +22,12 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Hey, Bestiee",
+      content: "Hey, Bestieeee",
       image: "/character/one.png",
     },
     {
       content: `It's been 1 year, 4 months, and 3 days.
-      Our love for each other still blossoms.
+      Our love for each other still blossoms, and I love you so much.
       `,
       image: "/character/two.png",
     },
@@ -43,15 +43,15 @@ and you make spending time together feel so short.`,
     },
     {
       content: `Each day, I look forward to seeing you again,
-hold your hands, look into your pretty eyes, and kiss you.`,
+hold your hands, look into your beautiful eyes, and kiss 😘 you.`,
       image: "/character/five.png",
     },
     {
-      content: "In this season of love Lerato Laka…",
+      content: "In this season of love Lerato Laka 😍…",
       image: "/character/six.png",
     },
     {
-      content: "Will you be my Valentine?",
+      content: "Will you be my Valentine? 🥰",
       image: "/character/seven.png",
     },
   ];
@@ -121,14 +121,14 @@ hold your hands, look into your pretty eyes, and kiss you.`,
           <>
             <button
               onClick={() => setCurrentStep(currentStep + 1)}
-              className="bg-white text-[#E55451] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#ffc5d3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Next
             </button>
             {currentStep > 0 && (
               <button
                 onClick={() => setCurrentStep(currentStep - 1)}
-                className="bg-white text-[#E55451] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
+                className="bg-white text-[#ffc5d3] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
               >
                 Back
               </button>
