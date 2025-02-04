@@ -80,7 +80,7 @@ hold your hands, look into your pretty eyes, and kiss you.`,
           transition={{ duration: 0.5 }}
         >
           <Confetti width={width} height={height} />
-          <div className="fixed top-0 left-0 w-full h-full bg-[#FFC5D3] flex flex-col items-center justify-center">
+          <div className="fixed top-0 left-0 w-full h-full bg-[#E55451] flex flex-col items-center justify-center">
             <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -121,14 +121,14 @@ hold your hands, look into your pretty eyes, and kiss you.`,
           <>
             <button
               onClick={() => setCurrentStep(currentStep + 1)}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#E55451] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Next
             </button>
             {currentStep > 0 && (
               <button
                 onClick={() => setCurrentStep(currentStep - 1)}
-                className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
+                className="bg-white text-[#E55451] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
               >
                 Back
               </button>
