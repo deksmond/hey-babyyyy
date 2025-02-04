@@ -22,32 +22,32 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Heyyyyy, pretty girl.",
+      content: "Hey, Bestiee",
       image: "/character/one.png",
     },
     {
-      content: `Recently, we met.
-      And somehow, you've been on my mind ever since.
+      content: `It's been 1 year, 4 months, and 3 days.
+      Our love for each other still blossoms.
       `,
       image: "/character/two.png",
     },
     {
-      content: `Then we went on our first date…And I realized—yep, I want this girl. For life.
+      content: `In the good, the bad and ugly days. You show me genuine love ❤️. Always.
       `,
       image: "/character/three.png",
     },
     {
-      content: `You're beautiful, you're smart, you're fun,
-and you make spending time together feel too short.`,
+      content: `You're beautiful, you're fun, you're so cute,
+and you make spending time together feel so short.`,
       image: "/character/four.png",
     },
     {
-      content: `I look forward to when I'll see you again,
-hold your hands, and look into your pretty eyes.`,
+      content: `Each day, I look forward to seeing you again,
+hold your hands, look into your pretty eyes, and kiss you.`,
       image: "/character/five.png",
     },
     {
-      content: "So now I've got a question for you…",
+      content: "In this season of love Lerato Laka…",
       image: "/character/six.png",
     },
     {
